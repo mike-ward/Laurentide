@@ -1,0 +1,47 @@
+/* CSS Document */
+
+body { margin: 0; padding: 0; border: 0; background-color: #221a12; font-family: Georgia, "Times New Roman", Times, serif; }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .social { position: absolute; top: 10px; left: 100%; line-height: 10px; z-index: 10000 !important; }
+}
+
+h1 { font-size: 24px; }
+
+a { color: #221a12; }
+
+img { border: none; }
+
+.social { position: absolute; top: 10px; right: 0px; line-height: 10px; }
+
+.main { width: 1024px; margin: 10px auto; }
+
+.nav { z-index: 1000 !important; position: relative; }
+
+  .nav img { float: left; }
+
+  .nav ul { float: right; clear: none; }
+
+    .nav ul a { color: #f8ecd2; text-decoration: none; }
+
+      .nav ul a:hover { text-decoration: underline; }
+
+    .nav ul li { display: inline; color: #f8ecd2; font-family: Georgia, "Times New Roman", Times, serif; font-size: 15px; margin-left: 5px; margin-right: 5px; line-height: 160px; }
+
+.slideshow { background-color: #8e8b87; height: 422px; position: relative; top: 120px; width: 1024px; line-height: normal; }
+
+  .slideshow img { margin-top: 10px !important; width: 1024px; height: 402px; }
+
+.content { padding-top:120px; width: 1024px; background-color: #fffef1; min-height: 400px; }
+
+  .content table { padding-top: 30px; font-family: Georgia, "Times New Roman", Times, serif; color: black; font-size: 16px; line-height: 22px; }
+
+.winePhoto { border: 5px solid #221a12; float: left; clear: none; }
+
+.winePhoto2 { border: 5px solid #221a12; margin-right: 10px; }
+
+.wineText { float: left; clear: none; margin: 10px 0 0 5px; width: 255px; }
+
+.slide { position: relative; top: -192px; }
+
+h2.publicity { margin-top: 0; }

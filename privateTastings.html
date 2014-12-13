@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Laurentide Winery | Private Wine Tastings Leelanau Peninsula Michigan - Private Tastings</title>
+  <meta name="keywords" content="Leelanau winery, Leelanau peninsula, Traverse City winery, Leelanau wine trail, Leelanau wine tasting, Traverse City wine tasting " />
+  <meta name="description" content="Welcome To Laurentide Winery - Close to Traverse City located on the Leelanau Peninsula in Michigan.  Join us for wine tastings any Friday - Sunday before December 2012." />
+  <link href="css/main.css" type="text/css" rel="stylesheet" media="print, screen, projection" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="js/jquery.cycle.lite.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+    var first = true;
+
+    $(document).ready(function () {
+      $('.slideshow img').hide();
+      $('.slideshow img:first').show();
+    });
+
+    $(window).load(function () {
+      $('.slideshow').cycle({
+        fx: 'fade',
+        before: onBefore
+      });
+    });
+
+    function onBefore(curr, next, opts) {
+      var $slide = $(next);
+      var w = $slide.outerWidth();
+      var h = $slide.outerHeight();
+      if (first) {
+        $slide.css({
+          marginTop: (422 - h) / 2,
+          marginLeft: -497
+        });
+        first = false;
+      }
+      else {
+        $slide.css({
+          marginTop: (422 - h) / 2,
+          marginLeft: (1024 - w) / 2
+        });
+      }
+    };
+
+  </script>
+</head>
+
+<body>
+  <div class="social">
+    <a href="http://www.facebook.com/LaurentideWinery" target="_blank">
+      <img src="images/facebookTab.png" width="38" height="32" /></a><br />
+    <br />
+    <a href="http://laurentidewinery.wordpress.com" target="_blank">
+      <img src="images/blogTab.png" width="38" height="32" /></a>
+  </div>
+  <div class="main">
+    <div class="nav">
+      <img src="images/LaurentideWineryLogo.png" width="497" height="142" alt="Laurentide Winery - Leelanau Peninsula, Michigan" /><ul><a href="index.html">
+        <li>Home</li>
+      </a><a href="ourStory.html">
+        <li>Our Story</li>
+      </a><a href="wineList.html">
+        <li>Our Wines</li>
+      </a><a href="publicity.html">
+        <li>Publicity</li>
+      </a><a href="privateTastings.html">
+        <li>Private Tastings</li>
+      </a><a href="contact.html">
+        <li>Contact</li>
+      </a></ul>
+    </div>
+    <div class="slideshow">
+      <img src="images/HomeSlide1.jpg" width="1024" height="402" alt="Laurentide Winery Vineyard - Leelanau, Michigan" class="slide" />
+      <img src="images/HomeSlide2.jpg" width="1024" height="402" alt="Laurentide Winery Vineyard - Leelanau, Michigan" class="slide" />
+      <img src="images/HomeSlide3.jpg" width="1024" height="402" alt="Laurentide Winery Vineyard - Leelanau, Michigan" class="slide" />
+      <img src="images/HomeSlide4.jpg" width="1024" height="402" alt="Laurentide Winery Vineyard - Leelanau, Michigan" class="slide" />
+    </div>
+    <div class="content">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td width="39px">&nbsp;</td>
+          <td width="665px" valign="top">
+            <img src="images/privateTastingsHeader.jpg" width="665" height="36" alt="Private Tastings" /><br />
+            <br />
+            <br />
+            <img src="images/privateTastings.jpg" alt="Laurentide Winery Private Tastings" style="float: right; margin-left: 20px" />Laurentide Winery is available for private tastings for parties of 12 or more.<br />
+            <br />
+            For more information about private wine tastings contact us by phone at
+            <br />
+            <br />
+            <a href="2319442147">(231) 994-2147</a><br />
+            <br />
+            <a href="tel:8102311785">(810) 231-1785</a></br><br />
+            <a href="mailto:info@laurentidewinery.com">info@laurentidewinery.com</a></td>
+          <td width="54px">&nbsp;</td>
+          <td width="248px" valign="top">
+            <img src="images/FeaturedWinesHeader.jpg" width="248" height="39" alt="Laurentide Winery's Featured Wines" /><img src="images/wineBottles.jpg" width="78" height="141" alt="Lake Leelanau Winery's Featured Wines" style="float: right" /><br />
+            <br />
+            <b>Laurentide 2013 Sauvignon Blanc</b><br />
+            Traditional grape of Bordeaux and Sancerre, dry and distinctive aromas<br />
+            <br />
+            <b>Laurentide 2011 Pinot Noir</b><br />
+            Burgundian premium varietal, dry and aged in oak barrels<br />
+            <br />
+            <b>Pinot Noir Rose 2013</b><br />
+            Seductive Dry Rose
+            <br />
+            <br />
+            <a href="wineList.html">
+              <img src="images/learnMoreButton.jpg" width="59" height="20" alt="See all of Laurentide Winery's wine selection" /></a><br />
+            <br />
+          </td>
+          <td width="18px">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="2" valign="top">&nbsp;</td>
+          <td width="54px">&nbsp;</td>
+          <td width="248px" valign="top">
+            <img src="images/TwitterHeader.jpg" width="248" height="39" alt="Laurentide Winery Tweets" />
+            <a class="twitter-timeline" href="https://twitter.com/laurentidewines" data-widget-id="399592228625993728">Tweets by @laurentidewines</a>
+            <div>
+              <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+            </div>
+          </td>
+          <td width="18px">&nbsp;</td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+</body>
+</html>
