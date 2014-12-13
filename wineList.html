@@ -1,176 +1,176 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>Laurentide Winery | Wine Tastings Leelanau Peninsula Michigan - Our Wines</title>
-  <meta name="keywords" content="Leelanau winery, Leelanau peninsula, Traverse City winery, Leelanau wine trail, Leelanau wine tasting, Traverse City wine tasting " />
-  <meta name="description" content="Welcome To Laurentide Winery - Close to Traverse City located on the Leelanau Peninsula in Michigan.  Learn more about the selection of wines we have to offer." />
-  <link href="css/main.css" type="text/css" rel="stylesheet" media="print, screen, projection" />
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-  <script src="js/jquery.cycle.lite.js" type="text/javascript"></script>
-  <script type="text/javascript">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Laurentide Winery | Wine Tastings Leelanau Peninsula Michigan - Our Wines</title>
+    <meta name="keywords" content="Leelanau winery, Leelanau peninsula, Traverse City winery, Leelanau wine trail, Leelanau wine tasting, Traverse City wine tasting " />
+    <meta name="description" content="Welcome To Laurentide Winery - Close to Traverse City located on the Leelanau Peninsula in Michigan.  Learn more about the selection of wines we have to offer." />
+    <link href="css/main.css" type="text/css" rel="stylesheet" media="print, screen, projection" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="js/jquery.cycle.lite.js" type="text/javascript"></script>
+    <script type="text/javascript">
 
-    var first = true;
+      var first = true;
 
-    $(document).ready(function () {
-      $('.slideshow img').hide();
-      $('.slideshow img:first').show();
-    });
-
-    $(window).load(function () {
-      $('.slideshow').cycle({
-        fx: 'fade',
-        before: onBefore
+      $(document).ready(function () {
+        $('.slideshow img').hide();
+        $('.slideshow img:first').show();
       });
-    });
 
-    function onBefore(curr, next, opts) {
-      var $slide = $(next);
-      var w = $slide.outerWidth();
-      var h = $slide.outerHeight();
-      if (first) {
-        $slide.css({
-          marginTop: (422 - h) / 2,
-          marginLeft: -497
+      $(window).load(function () {
+        $('.slideshow').cycle({
+          fx: 'fade',
+          before: onBefore
         });
-        first = false;
-      }
-      else {
-        $slide.css({
-          marginTop: (422 - h) / 2,
-          marginLeft: (1024 - w) / 2
-        });
-      }
-    };
+      });
 
-  </script>
-</head>
+      function onBefore(curr, next, opts) {
+        var $slide = $(next);
+        var w = $slide.outerWidth();
+        var h = $slide.outerHeight();
+        if (first) {
+          $slide.css({
+            marginTop: (422 - h) / 2,
+            marginLeft: -497
+          });
+          first = false;
+        }
+        else {
+          $slide.css({
+            marginTop: (422 - h) / 2,
+            marginLeft: (1024 - w) / 2
+          });
+        }
+      };
 
-<body>
-  <div class="social"><a href="http://www.facebook.com/LaurentideWinery" target="_blank">
-    <img src="images/facebookTab.png" width="38" height="32" /></a><br />
-    <br />
-    <a href="http://laurentidewinery.wordpress.com" target="_blank">
-      <img src="images/blogTab.png" width="38" height="32" /></a></div>
-  <div class="main">
-    <div class="nav">
-      <img src="images/LaurentideWineryLogo.png" width="497" height="142" alt="Laurentide Winery - Leelanau Peninsula, Michigan" /><ul><a href="index.html">
+    </script>
+  </head>
+
+  <body>
+    <div class="social"><a href="http://www.facebook.com/LaurentideWinery" target="_blank">
+      <img src="images/facebookTab.png" width="38" height="32" /></a><br />
+      <br />
+      <a href="http://laurentidewinery.wordpress.com" target="_blank">
+        <img src="images/blogTab.png" width="38" height="32" /></a></div>
+    <div class="main">
+      <div class="nav">
+        <img src="images/LaurentideWineryLogo.png" width="497" height="142" alt="Laurentide Winery - Leelanau Peninsula, Michigan" /><ul><a href="index.html">
         <li>Home</li>
-      </a><a href="ourStory.html">
+        </a><a href="ourStory.html">
         <li>Our Story</li>
-      </a><a href="wineList.html">
+        </a><a href="wineList.html">
         <li>Our Wines</li>
-      </a><a href="publicity.html">
+        </a><a href="publicity.html">
         <li>Publicity</li>
-      </a><a href="privateTastings.html">
-        <li>Private Tastings</li>
-      </a><a href="contact.html">
+        </a><a href="privateTastings.html">
+        <li>Tasting Room</li>
+        </a><a href="contact.html">
         <li>Contact</li>
-      </a></ul></div>
-    <div class="slideshow">
-      <img src="images/OurWinesSlide3.jpg" width="1024" height="402" alt="Laurentide Winery's Selection of Wines" class="slide" />
-      <img src="images/OurWinesSlide2.jpg" width="1024" height="402" alt="Laurentide Winery's Selection of Wines" class="slide" />
-      <img src="images/OurWinesSlide5.jpg" width="1024" height="402" alt="Laurentide Winery's Selection of Wines" class="slide" />
-      <img src="images/OurWinesSlide4.jpg" width="1024" height="402" alt="Laurentide Winery's Selection of Wines" class="slide" />
-      <img src="images/OurWinesSlide6.jpg" width="1024" height="402" alt="Laurentide Winery's Selection of Wines" class="slide" />
-    </div>
-    <div class="content">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr>
-          <td width="40px">&nbsp;</td>
-          <td colspan="3">
-            <img src="images/ourWinesHeader.jpg" width="944" height="36" alt="Our Wines" /><br />
-            <br />
-          </td>
-          <td width="40px">&nbsp;</td>
-        </tr>
-        <tr>
-          <td colspan="4" style="text-align:center; padding-bottom: 1pc;"><a href="https://squareup.com/market/laurentide-winery#category-FDDB2C2F-B794-46D9-B34A-17FE810CEE3F" target="_blank"><strong style="font-size:larger">New! Purchase Online</strong></a></td>
-        </tr>
-        <tr>
-          <td width="40px">&nbsp;</td>
-          <td width="450px" valign="top">
-            <img src="images/ChardonnayPhoto.jpg" width="167" height="250" alt="Laurentide Winery's 2012 Chardonnay Photo" class="winePhoto" />
-            <p class="wineText">
-              <img src="images/2012Chardonnay.png" width="250" height="50" alt="Laurentide Winery's 2012 Chardonnay" />
-              Our un-oaked, 2012 Chardonnay exhibits a balance of fruit, acidity, and minerals.  Enjoy this dry wine with king salmon or pork loin.<br />
-             </p></td>
-          <td width="44px">&nbsp;</td>
-          <td width="450px" valign="top">
-            <img src="images/PinoGrisPhoto.jpg" width="167" height="250" alt="Laurentide Winery's 2011 Pinot Gris" class="winePhoto" /><p class="wineText">
+        </a></ul></div>
+      <div class="slideshow">
+        <img src="images/OurWinesSlide3.jpg" width="1024" height="402" alt="Laurentide Winery's Selection of Wines" class="slide" />
+        <img src="images/OurWinesSlide2.jpg" width="1024" height="402" alt="Laurentide Winery's Selection of Wines" class="slide" />
+        <img src="images/OurWinesSlide5.jpg" width="1024" height="402" alt="Laurentide Winery's Selection of Wines" class="slide" />
+        <img src="images/OurWinesSlide4.jpg" width="1024" height="402" alt="Laurentide Winery's Selection of Wines" class="slide" />
+        <img src="images/OurWinesSlide6.jpg" width="1024" height="402" alt="Laurentide Winery's Selection of Wines" class="slide" />
+      </div>
+      <div class="content">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td width="40px">&nbsp;</td>
+            <td colspan="3">
+              <img src="images/ourWinesHeader.jpg" width="944" height="36" alt="Our Wines" /><br />
+              <br />
+            </td>
+            <td width="40px">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="4" style="text-align:center; padding-bottom: 1pc;"><a href="https://squareup.com/market/laurentide-winery#category-FDDB2C2F-B794-46D9-B34A-17FE810CEE3F" target="_blank"><strong style="font-size:larger">New! Purchase Online</strong></a></td>
+          </tr>
+          <tr>
+            <td width="40px">&nbsp;</td>
+            <td width="450px" valign="top">
+              <img src="images/ChardonnayPhoto.jpg" width="167" height="250" alt="Laurentide Winery's 2012 Chardonnay Photo" class="winePhoto" />
+              <p class="wineText">
+                <img src="images/2012Chardonnay.png" width="250" height="50" alt="Laurentide Winery's 2012 Chardonnay" />
+                Our un-oaked, 2012 Chardonnay exhibits a balance of fruit, acidity, and minerals.  Enjoy this dry wine with king salmon or pork loin.<br />
+              </p></td>
+            <td width="44px">&nbsp;</td>
+            <td width="450px" valign="top">
+              <img src="images/PinoGrisPhoto.jpg" width="167" height="250" alt="Laurentide Winery's 2011 Pinot Gris" class="winePhoto" /><p class="wineText">
               <img src="images/2012PinotGris.png" width="250" height="50" alt="Laurentide Winery's 2012 Pinot Gris" />The explosive fruit taste followed by a long, mouth-watering finish makes our 2012 Pinot Gris perfect with spicy sea scallops or gumbo.<br />
               </p></td>
-          <td width="40px">&nbsp;</td>
-        </tr>
-        <tr>
-          <td colspan="5" height="10px">&nbsp;</td>
-        </tr>
-        <tr>
-          <td width="40px">&nbsp;</td>
-          <td width="450px" valign="top">
-            <img src="images/RieslingPhoto.jpg" width="167" height="250" alt="Laurentide Winery's 2012 Riesling Photo" class="winePhoto" /><p class="wineText">
+            <td width="40px">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="5" height="10px">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="40px">&nbsp;</td>
+            <td width="450px" valign="top">
+              <img src="images/RieslingPhoto.jpg" width="167" height="250" alt="Laurentide Winery's 2012 Riesling Photo" class="winePhoto" /><p class="wineText">
               <img src="images/2012Riesling.png" width="250" height="50" alt="Laurentide Winery's 2012 Riesling" />With 0.3% residual sugar, our 2012 Riesling is dry and has a delicate, refreshing fruit character.  Excellent with Parrano cheese or simply alone.<br />
               </p></td>
-          <td width="44px">&nbsp;</td>
-          <td width="450px" valign="top">
-            <img src="images/SauvignonBlancPhoto.jpg" width="167" height="250" alt="Laurentide Winery's 2013 Sauvignon Blanc" class="winePhoto" /><p class="wineText">
+            <td width="44px">&nbsp;</td>
+            <td width="450px" valign="top">
+              <img src="images/SauvignonBlancPhoto.jpg" width="167" height="250" alt="Laurentide Winery's 2013 Sauvignon Blanc" class="winePhoto" /><p class="wineText">
               <img src="images/2013SauvignonBlanc.png" width="250" height="50" alt="Laurentide Winery's 2013 Sauvignon Blanc" />An unmistakable nose identifies our 2013 Sauvignon Blanc. The striking taste has an abundance of lime and a long, mineral finish.  Enjoy with pesto or your favorite vegetables.<br />
               </p></td>
-          <td width="40px">&nbsp;</td>
-        </tr>
-        <tr>
-          <td colspan="5" height="10px">&nbsp;</td>
-        </tr>
-        <tr>
-          <td width="40px">&nbsp;</td>
-          <td width="450px" valign="top">
-            <img src="images/EmergenceWhitePhoto.jpg" width="167" height="250" alt="Laurentide Winery's 2021 Emergence White Photo" class="winePhoto" /><p class="wineText">
+            <td width="40px">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="5" height="10px">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="40px">&nbsp;</td>
+            <td width="450px" valign="top">
+              <img src="images/EmergenceWhitePhoto.jpg" width="167" height="250" alt="Laurentide Winery's 2021 Emergence White Photo" class="winePhoto" /><p class="wineText">
               <img src="images/2012EmergenceWhite.png" width="250" height="50" alt="Laurentide Winery's 2012 Emergence White" />This white blend is easy drinking, but has an intriguing edge and at 1.5% residual sugar, it's our sweetest wine.  Make it your "house white".<br />
               </p></td>
-          <td width="44px">&nbsp;</td>
-          <td width="450px" valign="top">
-            <img src="images/PinotNoirPhoto.jpg" width="167" height="250" alt="Laurentide Winery's 2011 Pinot Noir" class="winePhoto" /><p class="wineText">
+            <td width="44px">&nbsp;</td>
+            <td width="450px" valign="top">
+              <img src="images/PinotNoirPhoto.jpg" width="167" height="250" alt="Laurentide Winery's 2011 Pinot Noir" class="winePhoto" /><p class="wineText">
               <img src="images/2011PinotNoir.png" width="250" height="50" alt="Laurentide Winery's 2011 Pinot Noir" />Oak-aged and made in traditional Burgundian style, our 2010 Pinot Noir comes alive with raspberry fruit.  Enjoy this red wine with pork chops or cheese pizza.<br />
               </p></td>
-          <td width="40px">&nbsp;</td>
-        </tr>
-        <tr>
-          <td colspan="5" height="10px">&nbsp;</td>
-        </tr>
-        <tr>
-          <td width="40px">&nbsp;</td>
-          <td width="450px" valign="top">
-            <img src="images/CherryWinePhoto.jpg" width="167" height="250" alt="Laurentide Winery's Cherry Wine" class="winePhoto" /><p class="wineText">
+            <td width="40px">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="5" height="10px">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="40px">&nbsp;</td>
+            <td width="450px" valign="top">
+              <img src="images/CherryWinePhoto.jpg" width="167" height="250" alt="Laurentide Winery's Cherry Wine" class="winePhoto" /><p class="wineText">
               <img src="images/CherryWineText.png" width="250" height="50" alt="Laurentide Winery's Cherry Wine" />As an aperitif or fun picnic wine, our Cherry Wine strikes a unique balance of sweet &amp; tart.<br />
               </p></td>
-          <td width="44px">&nbsp;</td>
-          <td width="450px" valign="top">
-            <img src="images/semisweetriesling.jpg" width="167" height="250" alt="Laurentide Winery's Semi-sweet Riesling Wine" class="winePhoto" /><p class="wineText">
+            <td width="44px">&nbsp;</td>
+            <td width="450px" valign="top">
+              <img src="images/semisweetriesling.jpg" width="167" height="250" alt="Laurentide Winery's Semi-sweet Riesling Wine" class="winePhoto" /><p class="wineText">
               <img src="images/2012SemiSweetRiesling.png" width="300" height="50"  alt="Laurentide Winery's Semi-sweet Riesling Wine" />A wonderful tropical nose with complexity on the pallet allow our sweetest grape based wine to shine through as a dessert or stand alone wine.
               </p></td>
           </td>
-          <td width="40px">&nbsp;</td>
+        <td width="40px">&nbsp;</td>
         </tr>
-        <tr>
-          <td colspan="5" height="10px">&nbsp;</td>
-        </tr>
-        <tr>
-          <td width="40px">&nbsp;</td>
-          <td width="450px" valign="top">
-            <img src="images/PinotNoirRose.jpg" width="167" height="250" alt="Laurentide Winery's Pinot Noir Rose" class="winePhoto" /><p class="wineText">
-              <img src="images/2013PinotNoirRose.png"  alt="Laurentide Winery's Pinot Noir Rose" />Our newest release and Silver Award Winner!  This seductive dry rose is sure to be a favorite soon with pomegranate and cranberry overtones, crisp and clean, pairs with more foods than any other wine, yet exhibits finesse by the glass.  Drink the Pink!
-<br />
-              <br />
-              .
-            </p>
-          </td>
-          <td width="44px">&nbsp;</td>
-          <td width="450px" valign="top">
-          </td>
-          <td width="40px">&nbsp;</td>
-        </tr>
+      <tr>
+        <td colspan="5" height="10px">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="40px">&nbsp;</td>
+        <td width="450px" valign="top">
+          <img src="images/PinotNoirRose.jpg" width="167" height="250" alt="Laurentide Winery's Pinot Noir Rose" class="winePhoto" /><p class="wineText">
+          <img src="images/2013PinotNoirRose.png"  alt="Laurentide Winery's Pinot Noir Rose" />Our newest release and Silver Award Winner!  This seductive dry rose is sure to be a favorite soon with pomegranate and cranberry overtones, crisp and clean, pairs with more foods than any other wine, yet exhibits finesse by the glass.  Drink the Pink!
+          <br />
+          <br />
+          .
+          </p>
+        </td>
+        <td width="44px">&nbsp;</td>
+        <td width="450px" valign="top">
+        </td>
+        <td width="40px">&nbsp;</td>
+      </tr>
       </table>
-      <p>&nbsp;</p>
+    <p>&nbsp;</p>
     </div>
   </div>
 </body>
